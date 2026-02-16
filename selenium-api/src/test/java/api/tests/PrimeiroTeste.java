@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 
 public class PrimeiroTeste {
 
+    
     @Test
     public void deveValidarListaDeUsuarios() {
         given()
