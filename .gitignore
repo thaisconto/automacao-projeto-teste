@@ -1,0 +1,17 @@
+# Java / Maven
+target/
+*.class
+.mvn/
+.idea/
+*.iml
+
+# Node / Cypress
+node_modules/
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+.cypress-cache/
+
+# Sistema
+.DS_Store
+Thumbs.db

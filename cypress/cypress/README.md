@@ -22,9 +22,15 @@ Para garantir a manutenção e escalabilidade do código, o projeto foi estrutur
 
 * JavaScript
 
+# 🔗 Aplicação Testada
+
+Os testes foram executados no site **SauceDemo**, uma plataforma padrão para demonstração de ferramentas de automação UI.
+
+* **URL:** [https://www.saucedemo.com/](https://www.saucedemo.com/)
+
 ## 🏃 Como rodar o projeto
 
 * Clone o repositório
 * Instale as dependências: npm install
-* Abra o Cypress: npm cypress open
-* Ou rode no terminal: npm cypress run
+* Abra o Cypress: npm cypress open ou npx cypress open
+* Ou rode no terminal: npm cypress run ou npx cypress run
