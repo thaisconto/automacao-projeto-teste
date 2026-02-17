@@ -6,13 +6,13 @@ Bem-vindo ao meu repositório de estudos e demonstração técnica. Este projeto
 
 O projeto está dividido em duas frentes principais:
 
-### 1. [Cypress (Front-end)](./cypress)
+### 1. [Cypress (Front-end)](https://github.com/thaisconto/automacao-projeto-teste/tree/main/cypress)
 Automação de interface (UI) utilizando Cypress. Focado em:
 * Arquitetura Page Objects (POM) avançada.
 * Métodos genéricos e reutilizáveis (DSL).
 * Validações de fluxos de login e mensagens de sistema.
 
-### 2. [Selenium & RestAssured (Back-end)](./selenium)
+### 2. [Selenium & RestAssured (Back-end)](https://github.com/thaisconto/automacao-projeto-teste/tree/main/selenium-api)
 Automação de testes de API e integração. Focado em:
 * Validação de contratos de API.
 * Testes de integração de serviços.
