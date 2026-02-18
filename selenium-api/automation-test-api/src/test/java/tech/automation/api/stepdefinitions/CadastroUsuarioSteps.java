@@ -13,17 +13,18 @@ public class CadastroUsuarioSteps {
     private AutomationServiceApiTests api = new AutomationServiceApiTests();
     private String idUsuario;
 
-    @Dado("que eu tenha dados válidos para um novo usuário")
+    @Dado("que eu tenha dados validos para um novo usuario")
     public void queEuTenhaDadosValidosParaUmNovoUsuario() {
+        this.usuarioRequest = UsuarioRequest.createDefault();
     }
 
-    @Quando("eu envio a requisição de cadastro")
+    @Quando("eu envio a requisicao de cadastro")
     public void euEnvioARequisicaoDeCadastro() {
         response = api.doCadastrarUsuario(usuarioRequest); 
         idUsuario = response.extract().path("_id");
     }
 
-    @Então("o usuário deve ser armazenado com sucesso")
+    @Então("o usuario deve ser armazenado com sucesso")
     public void oUsuarioDeveSerArmazenadoComSucesso() {
         response.statusCode(201)
                 .body("message", is("Cadastro realizado com sucesso"));
@@ -34,7 +35,7 @@ public class CadastroUsuarioSteps {
                 .body("email", is(usuarioRequest.getEmail()));
     }
 
-    @Dado("que eu tenha dados de um novo usuário sem o campo e-mail")
+    @Dado("que eu tenha dados de um novo usuario sem o campo e-mail")
     public void que_eu_tenha_dados_de_um_novo_usuário_sem_o_campo_e_mail() {
         usuarioRequest = new UsuarioRequest();
         usuarioRequest.setNome("Fulano de Tal");

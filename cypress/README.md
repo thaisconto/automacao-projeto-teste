@@ -32,5 +32,5 @@ Os testes foram executados no site **SauceDemo**, uma plataforma padrão para de
 
 * Clone o repositório
 * Instale as dependências: npm install
-* Abra o Cypress: npm cypress open ou npx cypress open
-* Ou rode no terminal: npm cypress run ou npx cypress run
+* Abra o Cypress: npx cypress open
+* Ou rode no terminal: npx cypress run
